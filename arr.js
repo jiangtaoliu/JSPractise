@@ -44,3 +44,10 @@ let fff = [1, 2, 3, 4, 5].filter(function (elem, index, arr) {
   });
 
 console.log(fff);
+
+console.log('==============================');
+var arrS = [1, 2, 3, 4, 5];
+arrS.some(function (elem, index, arr) {
+  return elem >= 3;
+});
+// true
